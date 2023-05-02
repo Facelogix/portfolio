@@ -1,0 +1,72 @@
+body {background: #f00;}
+.intro {
+    background-color: aqua;
+    height: 100vh;
+    p {}
+    h1 {}
+    a {}
+}
+main {
+    .container {background-color: darkgray;
+        width: 1440px; height: 850px; margin: 0 auto;
+        .visual {width: 100%;
+            background-color: beige;
+            display: flex; justify-content: space-between;
+            text-align: center;
+            .resume {background-color: blue;
+                width: 30%; height: 100%;
+                h1 {background-color: coral;
+                    font-size: 3rem; line-height: 100px;
+                }
+                a {width: 50%;}
+                    img {width: 100%;}
+            }
+            .thumbnail {background-color: cadetblue;
+                width: 60%; text-align: center; display: flex; justify-content:center;
+                > div > a {height: 30%;}
+                .left {background-color: yellow;
+                    flex-flow: column;
+                    a {width: 40%; height: 100%; background-color: chartreuse;}
+                    a:nth-child(1) {height: 40%;}
+                    a:nth-child(2) {}
+                    a:nth-child(3) {}
+                }
+                .right {background-color: yellow;
+                    flex-flow: column; height: 100%;
+                    a {width: 40%;  display: inline-block; background-color: chartreuse;}
+                }
+                
+                
+                
+                a:nth-child(4) {}
+                a:nth-child(5) {}
+                a:nth-child(6) {}
+            }
+        }
+    }
+}
+.btm_bar {
+    background-color:#333;
+    width: 100%; height: 110px;
+    position: fixed; bottom: 0; left: 0;
+    
+    .bar_contents {
+        background-color: bisque; margin: 0 auto;
+        width: 80%; padding: 0 50px; 
+        display: flex; justify-content: space-between;
+    }
+    
+    .mail {background-color: aquamarine;
+        width: 40%;
+        a {width: 60px;
+            img{}
+        }
+    }
+    .home {width: 60px;
+        img {width: 100%;}
+    }
+    .txt {
+        background-color: aquamarine;
+        width: 40%;
+    }
+}

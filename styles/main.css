@@ -1,0 +1,102 @@
+body {
+  background: #f00;
+}
+
+.intro {
+  background-color: aqua;
+  height: 100vh;
+}
+main .container {
+  background-color: darkgray;
+  width: 1440px;
+  height: 850px;
+  margin: 0 auto;
+}
+main .container .visual {
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+main .container .visual .resume {
+  background-color: blue;
+  width: 30%;
+  height: 100%;
+}
+main .container .visual .resume h1 {
+  background-color: coral;
+  font-size: 3rem;
+  line-height: 100px;
+}
+main .container .visual .resume a {
+  width: 50%;
+}
+main .container .visual .resume img {
+  width: 100%;
+}
+main .container .visual .thumbnail {
+  background-color: cadetblue;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+main .container .visual .thumbnail > div > a {
+  height: 30%;
+}
+main .container .visual .thumbnail .left {
+  background-color: yellow;
+  flex-flow: column;
+}
+main .container .visual .thumbnail .left a {
+  width: 40%;
+  height: 100%;
+  background-color: chartreuse;
+}
+main .container .visual .thumbnail .left a:nth-child(1) {
+  height: 40%;
+}
+main .container .visual .thumbnail .right {
+  background-color: yellow;
+  flex-flow: column;
+  height: 100%;
+}
+main .container .visual .thumbnail .right a {
+  width: 40%;
+  display: inline-block;
+  background-color: chartreuse;
+}
+.btm_bar {
+  background-color: #333;
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.btm_bar .bar_contents {
+  background-color: bisque;
+  margin: 0 auto;
+  width: 80%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.btm_bar .mail {
+  background-color: aquamarine;
+  width: 40%;
+}
+.btm_bar .mail a {
+  width: 60px;
+}
+.btm_bar .home {
+  width: 60px;
+}
+.btm_bar .home img {
+  width: 100%;
+}
+.btm_bar .txt {
+  background-color: aquamarine;
+  width: 40%;
+}/*# sourceMappingURL=main.css.map */
